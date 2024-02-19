@@ -1,0 +1,66 @@
+# Table of Contents
+1. [Description](#description)
+2. [Getting started](#getting-started)
+3. [Arhitecture](#arhitecture)
+4. [Structure](#structure)
+5. [Running the tests](#running-the-tests)
+6. [Deployment](#deployment)
+7. [Dependencies](#dependencies)
+8. [API](#api)
+
+# NYTimes
+A simple project that consume NYTimes APIs and showing most viewed places.
+
+# Description
+<p>The NYTimes project is a simple and straightforward sample application.<br>
+It consume NYTimes APIs and showing content in TableView most viewed contents.<br> 
+</p>
+
+# Getting started
+<p>
+1. Make sure you have the Xcode version 15.0 or above installed on your computer.<br>
+2. Download the NYTimes project files from the repository.<br>
+3. Install CocoaPods.<br>
+4. Run pod install so you can install the dependencies in your project.<br>
+5. Open the project files in Xcode.<br>
+6. Review the code and make sure you understand what it does.<br>
+7. Run the active scheme.<br>
+You should see the content in tableView.<br></p>
+
+# Architecture
+* NYTimes project is implemented using the <strong>Model-View-ViewModel (MVVM)</strong> architecture pattern.
+* Model has any necessary data or business logic needed to generate the "Hello, World!" message.
+* View is responsible for displaying the message to the user, such as printing it to the console.
+* Controller handles any user input or interactions and update the Model and View as needed.
+
+# Structure 
+* "Common": Files or resources that are shared across multiple parts of the project. Such as utility classes, global constants, or reusable UI elements.
+* "Modules": The source code files for a specific module. Files within a module folder are organized into subfolders, such as "Views" or "Models".
+* "Resources": Non-code files that are used by the project. These can include images, audio files, video files, and other types of assets. 
+* "API": Files or classes related to communicating with an external API. This could include code for making HTTP requests to a web server, parsing responses, and handling any errors that may occur.
+
+# Running the tests
+<p>The Hello World project can be tested using the built-in framework XCTest.<br>
+To start testing the project, you will need to create a new test target in your Xcode project, 
+and then add test files to that target.<br>These test files should be placed in the "test" folder, following the project structure.
+Once you have created your test files, you can write test functions using the XCTest</p>
+
+# Deployment
+Keep in mind that deploying an iOS app to the App Store requires having an Apple Developer account.
+
+1. Click on the "Product" menu in Xcode and select "Archive." This will create an archive of your project.
+2. Once the archive has been created, select it in the Organizer window and click on the "Validate" button to perform some preliminary tests on the app.
+3. Once validation is complete, click on the "Distribute" button and select "Ad Hoc" or "App Store" distribution. 
+This will create a signed IPA file that can be installed on iOS devices.
+4. Follow the prompts in the distribution wizard to complete the distribution process.
+5. Once the distribution is complete, you can use the IPA file to install the app on iOS devices
+
+# Dependencies
+[CocoaPods](https://cocoapods.org) is used as a dependency manager.
+List of dependencies: 
+* pod 'Alamofire' -> Networking library that ensures that the message reaches everyone in the world.
+
+# API 
+* We are using a REST API
+* List of API calls is [here](https://petstore.swagger.io/#/) 
+* For HTTP networking we are using [Alamofire](https://github.com/Alamofire/Alamofire) 
