@@ -16,6 +16,7 @@
 		9DE4C2A12B83E1E9006C186B /* AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4C2A02B83E1E9006C186B /* AssignmentTests.swift */; };
 		9DE4C2AB2B83E1E9006C186B /* AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4C2AA2B83E1E9006C186B /* AssignmentUITests.swift */; };
 		9DE4C2AD2B83E1E9006C186B /* AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4C2AC2B83E1E9006C186B /* AssignmentUITestsLaunchTests.swift */; };
+		9DE4C2BA2B83E7BE006C186B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DE4C2B92B83E7BE006C186B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9DE4C2A62B83E1E9006C186B /* AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE4C2AA2B83E1E9006C186B /* AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUITests.swift; sourceTree = "<group>"; };
 		9DE4C2AC2B83E1E9006C186B /* AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DE4C2B92B83E7BE006C186B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				9DE4C2882B83E1E6006C186B /* Assignment */,
 				9DE4C29F2B83E1E9006C186B /* AssignmentTests */,
 				9DE4C2A92B83E1E9006C186B /* AssignmentUITests */,
+				9DE4C2B92B83E7BE006C186B /* README.md */,
 				9DE4C2872B83E1E6006C186B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				9DE4C2962B83E1E9006C186B /* LaunchScreen.storyboard in Resources */,
 				9DE4C2932B83E1E9006C186B /* Assets.xcassets in Resources */,
+				9DE4C2BA2B83E7BE006C186B /* README.md in Resources */,
 				9DE4C2912B83E1E7006C186B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
