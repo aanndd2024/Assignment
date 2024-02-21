@@ -9,35 +9,34 @@
 8. [API](#api)
 
 # NYTimes
-A simple project that consume NYTimes APIs and showing most viewed places.
+A simple project that consume NY Times Popular Articles API and showing list of popular articles.
 
 # Description
 <p>The NYTimes project is a simple and straightforward sample application.<br>
-It consume NYTimes APIs and showing content in TableView most viewed contents.<br> 
+It consume NYTimes APIs and showing content in TableView most popular articles and shows details about article when items on the list are tapped.<br> 
 </p>
 
 # Getting started
 <p>
 1. Make sure you have the Xcode version 15.0 or above installed on your computer.<br>
 2. Download the NYTimes project files from the repository.<br>
-3. Install CocoaPods.<br>
-4. Run pod install so you can install the dependencies in your project.<br>
-5. Open the project files in Xcode.<br>
-6. Review the code and make sure you understand what it does.<br>
-7. Run the active scheme.<br>
+3. Open the project files in Xcode.<br>
+4. Wait for SPM depedency to be downloaded.<br>
+5. Review the code and make sure you understand what it does.<br>
+6. Run the active scheme.<br>
 You should see the content in tableView.<br></p>
 
 # Architecture
 * NYTimes project is implemented using the <strong>Model-View-ViewModel (MVVM)</strong> architecture pattern.
-* Model has any necessary data or business logic needed to generate the "Hello, World!" message.
-* View is responsible for displaying the message to the user, such as printing it to the console.
-* Controller handles any user input or interactions and update the Model and View as needed.
+* Model has any necessary data or business logic needed to get list of most popular acticles.
+* View is responsible for displaying the list of article in TableView, such as printing it to the console.
+* Controller handles any user interactions and update the Model and View as needed.
 
 # Structure 
 * "Common": Files or resources that are shared across multiple parts of the project. Such as utility classes, global constants, or reusable UI elements.
 * "Modules": The source code files for a specific module. Files within a module folder are organized into subfolders, such as "Views" or "Models".
 * "Resources": Non-code files that are used by the project. These can include images, audio files, video files, and other types of assets. 
-* "API": Files or classes related to communicating with an external API. This could include code for making HTTP requests to a web server, parsing responses, and handling any errors that may occur.
+* "APIManager": Files or classes related to communicating with an external API. This could include code for making HTTP requests to a web server, parsing responses, and handling any errors that may occur.
 
 # Running the tests
 <p>The NYTimes project can be tested using the built-in framework XCTest.<br>
