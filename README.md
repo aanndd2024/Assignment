@@ -40,7 +40,7 @@ You should see the content in tableView.<br></p>
 * "API": Files or classes related to communicating with an external API. This could include code for making HTTP requests to a web server, parsing responses, and handling any errors that may occur.
 
 # Running the tests
-<p>The Hello World project can be tested using the built-in framework XCTest.<br>
+<p>The NYTimes project can be tested using the built-in framework XCTest.<br>
 To start testing the project, you will need to create a new test target in your Xcode project, 
 and then add test files to that target.<br>These test files should be placed in the "test" folder, following the project structure.
 Once you have created your test files, you can write test functions using the XCTest</p>
@@ -56,11 +56,10 @@ This will create a signed IPA file that can be installed on iOS devices.
 5. Once the distribution is complete, you can use the IPA file to install the app on iOS devices
 
 # Dependencies
-[CocoaPods](https://cocoapods.org) is used as a dependency manager.
+[SPM](Swift Package Manager) is used as a dependency manager.
 List of dependencies: 
-* pod 'Alamofire' -> Networking library that ensures that the message reaches everyone in the world.
+* 'Kingfisher' -> A lightweight, pure-Swift library for downloading and caching images from the web.
 
 # API 
 * We are using a REST API
-* List of API calls is [here](https://petstore.swagger.io/#/) 
-* For HTTP networking we are using [Alamofire](https://github.com/Alamofire/Alamofire) 
+* List of API calls is [here](https://api.nytimes.com/svc) 
