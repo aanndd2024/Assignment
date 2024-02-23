@@ -7,7 +7,7 @@
 
 import Foundation
 
-typealias Handler<T> = (Result<T, DataError>) -> Void
+//typealias Handler<T> = (Result<T, DataError>) -> Void
 
 enum DataError: Error {
     case invalidResponse
@@ -38,12 +38,3 @@ class APIManager {
         return urlPath
     }
 }
-
-//public func data(for request: URLRequest, delegate: (URLSessionTaskDelegate)? = nil) async throws -> (Data, URLResponse)
-//
-///// Convenience method to load data using a URL, creates and resumes a URLSessionDataTask internally.
-/////
-///// - Parameter url: The URL for which to load data.
-///// - Parameter delegate: Task-specific delegate.
-///// - Returns: Data and response.
-//public func data(from url: URL, delegate: (URLSessionTaskDelegate)? = nil) async throws -> (Data, URLResponse)

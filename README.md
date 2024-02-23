@@ -58,6 +58,8 @@ This will create a signed IPA file that can be installed on iOS devices.
 [SPM](Swift Package Manager) is used as a dependency manager.
 List of dependencies: 
 * 'Kingfisher' -> A lightweight, pure-Swift library for downloading and caching images from the web.
+* 'ProgressHUD' -> A convenient and intuitive HUD tool designed specifically for iOS which enables seamless presentation of concise alerts or notifications to users of your app in a simple and non-disruptive way.
+
 
 # API 
 * We are using a REST API

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ProgressHUD
 
 class ArticleViewController: UIViewController, ArticleServices, UITableViewDelegate, UITableViewDataSource {
     
@@ -29,9 +30,11 @@ class ArticleViewController: UIViewController, ArticleServices, UITableViewDeleg
         let articleNib = UINib(nibName: "ArticleTableViewCell", bundle: nil)
         self.articleTableView.register(articleNib, forCellReuseIdentifier: "ArticleCellId")
         articleTableView.delegate = self
+        ProgressHUD.animate("Loading...")
     }
     
     func reloadData() {
+        ProgressHUD.dismiss()
         self.articleTableView.reloadData()
     }
 
